@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    height:100vh;
+    background-color: #FFE4E1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.timer{
+    font-size:8rem;
+}
+
+.btn{
+    padding:10px 30px 10px 30px;
+    border:none;
+    outline:none;
+    background-color: #FFB6C1;
+    border-radius:4px;
+    cursor:pointer;
+    transition: all .3s;
+}
+.fullscreen{
+    margin-top:20px;
+}
+
+.btn:hover{
+    background-color: #FF69B4;
+}
+
+.word-style{
+    font-size: 1.4rem;
+    margin-top:30px;
+    font-weight:lighter;
+    font-style: italic;
+}
